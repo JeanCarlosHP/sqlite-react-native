@@ -9,12 +9,12 @@ export default class App extends React.Component {
   }
 
   state = {
-      user: null,
-      password: null,
+      user: undefined,
+      password: undefined,
       onChangeText: null,
   }
 
-  insertUser = (user: string, password: string) => {
+  insertUser = (user: undefined, password: undefined) => {
     const a = new User()
     a.user = user
     a.password = password

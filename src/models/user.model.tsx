@@ -1,5 +1,5 @@
 export class User {
-  constructor(user?: string | undefined, password?: string| undefined) {
+  constructor(user?: string | undefined, password?: string | undefined) {
 
     this.user = user;
     this.password = password;
